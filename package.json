@@ -4,7 +4,8 @@
 	"description": "boilerplate",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "node server.js",
+		"test": "mocha --exit --ui tdd tests/"
 	},
 	"dependencies": {
 		"body-parser": "^1.15.2",
@@ -14,7 +15,8 @@
 		"dotenv": "^8.2.0",
 		"express": "^4.14.0",
 		"mocha": "^3.2.0",
-		"zombie": "^5.0.5"
+		"zombie": "^5.0.5",
+		"mongoose": "^6.0.8"
 	},
 	"repository": {
 		"type": "git",
